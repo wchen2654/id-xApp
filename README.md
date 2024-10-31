@@ -1,1 +1,1 @@
-# ml-test-xapp
+# Intrusion Detection xApp
