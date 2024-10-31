@@ -27,8 +27,8 @@ import json
 import os
 import time
 from mdclogpy import Logger
-from ricxappframe_oaict.rmr import rmr
-from ricxappframe_oaict.alarm.exceptions import InitFailed
+from ricxappframe_ID.rmr import rmr
+from ricxappframe_ID.alarm.exceptions import InitFailed
 
 ##############
 # PRIVATE API

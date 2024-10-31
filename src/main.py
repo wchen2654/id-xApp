@@ -1,7 +1,7 @@
 from xApp import *
 
 def launchxApp():
-    xApp = Oaict_xApp()
+    xApp = Intrusion_Detection_xApp()
     xApp.start()
 
 if __name__ == "__main__":

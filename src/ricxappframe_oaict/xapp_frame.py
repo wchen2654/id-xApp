@@ -29,17 +29,17 @@ from typing import List, Set
 import inotify_simple
 from mdclogpy import Logger
 
-from ricxappframe_oaict import xapp_rmr
-from ricxappframe_oaict.constants import sdl_namespaces
+from ricxappframe_ID import xapp_rmr
+from ricxappframe_ID.constants import sdl_namespaces
 
-import ricxappframe_oaict.entities.rnib.nodeb_info_pb2 as pb_nbi
-import ricxappframe_oaict.entities.rnib.cell_pb2 as pb_cell
-from ricxappframe_oaict.entities.rnib.nb_identity_pb2 import NbIdentity
-from ricxappframe_oaict.entities.rnib.nodeb_info_pb2 import Node
+import ricxappframe_ID.entities.rnib.nodeb_info_pb2 as pb_nbi
+import ricxappframe_ID.entities.rnib.cell_pb2 as pb_cell
+from ricxappframe_ID.entities.rnib.nb_identity_pb2 import NbIdentity
+from ricxappframe_ID.entities.rnib.nodeb_info_pb2 import Node
 
-from ricxappframe_oaict.rmr import rmr
-from ricxappframe_oaict.util.constants import Constants
-from ricxappframe_oaict.xapp_sdl import SDLWrapper
+from ricxappframe_ID.rmr import rmr
+from ricxappframe_ID.util.constants import Constants
+from ricxappframe_ID.xapp_sdl import SDLWrapper
 import requests
 
 

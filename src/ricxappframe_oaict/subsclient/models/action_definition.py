@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from ricxappframe_oaict.subsclient.configuration import Configuration
+from ricxappframe_ID.subsclient.configuration import Configuration
 
 
 class ActionDefinition(object):

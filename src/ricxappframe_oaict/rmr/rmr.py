@@ -21,8 +21,8 @@ import uuid
 from ctypes import POINTER, Structure
 from ctypes import c_int, c_char, c_char_p, c_void_p, memmove, cast, create_string_buffer
 
-from ricxappframe_oaict.rmr.exceptions import BadBufferAllocation, MeidSizeOutOfRange, InitFailed
-from ricxappframe_oaict.rmr.rmrclib.rmrclib import rmr_c_lib, get_constants, state_to_status
+from ricxappframe_ID.rmr.exceptions import BadBufferAllocation, MeidSizeOutOfRange, InitFailed
+from ricxappframe_ID.rmr.rmrclib.rmrclib import rmr_c_lib, get_constants, state_to_status
 
 ##############
 # PRIVATE API
@@ -36,7 +36,7 @@ def _get_rmr_constant(key: str, default=None):
     during sphinx autodoc document generation, which mocks the
     rmrclib package to work without the RMR shared object file,
     and the response is something like this:
-    <class 'ricxappframe_oaict.rmr.rmrclib.rmrclib.get_constants.get'>
+    <class 'ricxappframe_ID.rmr.rmrclib.rmrclib.get_constants.get'>
     Workaround for https://github.com/sphinx-doc/sphinx/issues/7422
     """
     val = get_constants().get(key, default)

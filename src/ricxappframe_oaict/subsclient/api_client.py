@@ -23,9 +23,9 @@ import tempfile
 import six
 from six.moves.urllib.parse import quote
 
-from ricxappframe_oaict.subsclient.configuration import Configuration
-import ricxappframe_oaict.subsclient.models
-from ricxappframe_oaict.subsclient import rest
+from ricxappframe_ID.subsclient.configuration import Configuration
+import ricxappframe_ID.subsclient.models
+from ricxappframe_ID.subsclient import rest
 
 
 class ApiClient(object):
@@ -267,7 +267,7 @@ class ApiClient(object):
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(ricxappframe_oaict.subsclient.models, klass)
+                klass = getattr(ricxappframe_ID.subsclient.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

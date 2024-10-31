@@ -15,7 +15,7 @@
 # ==================================================================================
 
 import json
-from ricxappframe_oaict.xapp_frame import RMRXapp
+from ricxappframe_ID.xapp_frame import RMRXapp
 from utils.constants import Constants
 from ._BaseHandler import _BaseHandler
 # from ..manager import SdlAlarmManager

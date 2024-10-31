@@ -16,7 +16,7 @@
 #
 # ==================================================================================
 
-from ricxappframe_oaict.xapp_frame import RMRXapp
+from ricxappframe_ID.xapp_frame import RMRXapp
 import json
 from ._BaseManager import _BaseManager
 

@@ -1,6 +1,6 @@
 from os import getenv # Give access to get environmental variables
 
-from ricxappframe_oaict.xapp_frame import * # Get access to the RIC xApp framework
+from ricxappframe_ID.xapp_frame import * # Get access to the RIC xApp framework
 
 from handler import * # Imports the handlers
 from manager import * # Imports the managers
@@ -8,7 +8,7 @@ from manager import * # Imports the managers
 from utils.constants import Constants
 
 
-class Oaict_xApp:
+class Intrusion_Detection_xApp:
 
     def __init__(self):
         fake_sdl = getenv("USE_FAKE_SDL", False)

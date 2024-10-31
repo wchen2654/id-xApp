@@ -16,8 +16,8 @@
 # https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-submgr/en/latest/user-guide.html
 #
 
-import ricxappframe_oaict.subsclient as subsclient
-import ricxappframe_oaict.xapp_rest as ricrest
+import ricxappframe_ID.subsclient as subsclient
+import ricxappframe_ID.xapp_rest as ricrest
 from mdclogpy import Logger
 
 logging = Logger(name=__name__)
